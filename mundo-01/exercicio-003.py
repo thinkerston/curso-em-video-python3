@@ -3,7 +3,5 @@
 print('insira dois numeros para fazer a soma')
 primeiroNumero = float(input('Digite o primeiro numero: '))
 segundoNumero = float(input('Digite o segundo numero: '))
-soma = float(primeiroNumero + segundoNumero)5
-
-
+soma = float(primeiroNumero + segundoNumero)
 print(f'a soma dos numeros é: {soma}')
