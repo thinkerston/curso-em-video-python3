@@ -9,5 +9,5 @@ if (abs(segundaReta - terceiraReta) < primeiraReta) and (primeiraReta < (segunda
     if (abs(primeiraReta - terceiraReta) < segundaReta) and (segundaReta < ( primeiraReta + terceiraReta)):
         if (abs(primeiraReta - segundaReta) < terceiraReta) and (terceiraReta < (primeiraReta + segundaReta)):
             print('Os seus dados formam um triângulo')
-else
+else:
     print('os seus dados não sao capazes de formar um triângulo')
