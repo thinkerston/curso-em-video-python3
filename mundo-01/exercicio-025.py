@@ -1,5 +1,5 @@
-'''Crie um programa que leia o nome de uma cidade e diga se ala começa ou não com o nome SANTO'''
+'''Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.'''
 
-nomeCidade = str(input('Insira o nome de sua cidade: ')).lower()
-santoExiste = bool('santo' in nomeCidade)
-print(santoExiste)
+nomePessoa = str(input('Insira seu nome completo e verificarei se tem "Silva": ')).lower()
+temSilva = bool('silva' in nomePessoa)
+print(temSilva)
