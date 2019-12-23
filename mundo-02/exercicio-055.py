@@ -5,13 +5,18 @@ maiorPeso = float(0)
 menorPeso = float(0)
 
 for i in range(0, 5):
+
     peso = float(input('qual o seu peso: '))
-    if peso > maiorPeso:
+    if i == 0:
         maiorPeso = peso
-        pass
-    elif (menorPeso != peso) and (peso < menorPeso):
         menorPeso = peso
-        pass
+    else:
+        if (peso > maiorPeso):
+            maiorPeso = peso
+            pass
+        elif (peso < menorPeso):
+            menorPeso = peso
+            pass
 
 print('-'*7)
 print(f'O menor peso foi de {menorPeso}')
