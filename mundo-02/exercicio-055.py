@@ -4,7 +4,6 @@ no final, mostre qual foi o maior e o menor peso'''
 maiorPeso = float(0)
 menorPeso = float(0)
 
-
 for i in range(0, 5):
 
     peso = float(input('qual o seu peso: '))
