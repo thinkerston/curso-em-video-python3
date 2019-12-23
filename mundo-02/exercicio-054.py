@@ -3,17 +3,16 @@ no final, mostre quantas pessoas ainda mão atingiram a maioridade e
 quantas já são maiores - considere maioridade a partir de 21 anos'''
 from datetime import date
 
-dataAtual = date.today()
-anoAtual = int(dataAtual.strftime('%Y'))
+anoAtual = date.today().year
 idade = int(0)
 maioridade = int(0)
 menoridade = int(0)
 
-for i in range(0, 6):
+for i in range(0, 7):
     
     anoNascimento = int(input('Insira o seu ano de nascimento: '))
     idade = int(anoAtual - anoNascimento)
-    if idade > 21:
+    if idade >= 21:
         maioridade += 1
     else:
         menoridade +=1
